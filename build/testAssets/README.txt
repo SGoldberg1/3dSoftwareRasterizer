@@ -1,0 +1,3 @@
+Assets made in blender and gimp...
+These are needed for the program to run as they are loaded in.
+No asset processor so raw files.
