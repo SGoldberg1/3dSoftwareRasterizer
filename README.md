@@ -57,23 +57,23 @@ render_group: | render_header | object1 | render_header | object2 | etc... | <br
 
 We then loop over all the data until 'n' bytes used has been met - pulling the render_header which determines the case to execute.  <br/>
 
-Additional Comments:
+Additional Comments: <br/>
 Clipping is not handled properly... So, the whole triangle gets clipped if any of the vertices is outside of NDC.
 The visibility problem has not been solved. Triangles that should be behind another triangle may get rendered ontop...
 This is a software rasterizer without optimizations, SIMD, or MIMD, so framerates may be bad.
-Hot keys: 
-W -> Move forward
-D -> Right Stride
-A -> Left Stride
-S -> Move Back
-Q -> Move Up
-E -> Move Down
-Directional Left: Look Left
-Directional Right: Look Right
-Directional Up: Look Up
-Directional Down: Look Down
-1 -> Toggle WireFrame
-2 -> Toggle Solid Fill
-3 -> Toggle Shaded Fill
-4 -> Toggle Triangle Normals
-5 -> Toggle Line from light source to object origin
+Hot keys: <br/>
+W -> Move forward <br/>
+D -> Right Stride <br/>
+A -> Left Stride <br/>
+S -> Move Back <br/>
+Q -> Move Up <br/>
+E -> Move Down <br/>
+Directional Left: Look Left <br/>
+Directional Right: Look Right <br/>
+Directional Up: Look Up <br/>
+Directional Down: Look Down <br/>
+1 -> Toggle WireFrame <br/>
+2 -> Toggle Solid Fill <br/>
+3 -> Toggle Shaded Fill <br/>
+4 -> Toggle Triangle Normals <br/>
+5 -> Toggle Line from light source to object origin <br/>
